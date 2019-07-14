@@ -103,33 +103,39 @@ exports.processAction = async function (sessionId, action, parameters, client, m
   if (action == "cpf") {
     console.log("get data from cpf")
     console.log(parameters)
-    await console.log(await getDataFromCPF("11055828419"))
+    getDataFromCPF("11055828419", (data) => {
+      console.log(data);
+      exports.database[sessionId]["cpf"] = data;
+    });
   }
 }
 exports.processAction().catch(console.error);
 
-async function getDataFromCPF(cpf){
-  // console.log(cpf)
+async function getDataFromCPF(cpf, callback){
+  console.log(cpf)
 
-  // // faz um post
-  // await request({
-  //     url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
-  //     method: "POST",
-  //     headers: {
-  //         "content-type": "application/json",
-  //         "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
-  //       },
-  //     json: {
-  //     "Datasets": "basic_data",
-  //     "q": "doc{" + cpf + "}"
-  //     }
-  // //  body: JSON.stringify(requestData)
-  //     },
-  //     function (error, resp, body) {
-  //       //console.log(body);
-  //       console.log(body['Result'][0]['BasicData']);
-  //       res.send("OK");
-  //       return body['Result'][0]['BasicData'];
-  //     });
-  return "dssdsd"
+  // faz um post
+  request({
+      url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
+      method: "POST",
+      headers: {
+          "content-type": "application/json",
+          "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
+        },
+      json: {
+      "Datasets": "basic_data",
+      "q": "doc{" + cpf + "}"
+      }
+  //  body: JSON.stringify(requestData)
+      },
+      function (error, resp, body) {
+        //console.log(body);
+        console.log(body['Result'][0]['BasicData']);
+        console.log("here")
+        callback(body['Result'][0]['BasicData']);        
+        // res.send("OK");
+        // return body['Result'][0]['BasicData'];
+      });
+  // return "dssdsd"
+}turn "dssdsd"
 }
