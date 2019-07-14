@@ -6,6 +6,9 @@ const request = require('request');
 const bodyParser = require('body-parser')
 const cors = require("cors");
 const FB = require("./FB.js")
+const LINK = require("./link.js")
+const dialog_control = require("./dialogflow")
+
 
 //Dialogflow
 const projectId = 'gr1d-viclxt';
@@ -21,6 +24,7 @@ app.get('/', (req, res) => {
   res.send('Chatbot is running');
   console.log("yay!")
 });
+
 
 //Bot Verification
 app.get('/webhook', (req, res) => {
@@ -51,7 +55,9 @@ app.get('/webhook', (req, res) => {
 
 //FACEBOOK MESSAGE RECEIVED
 app.post('/webhook',function(req, res) {
+        console.log("received")
         let body = req.body;
+        console.log(body)
         // Checks this is an event from a page subscription
         if (body.object === 'page') {
              // Iterates over each entry - there may be multiple if batched
@@ -59,14 +65,34 @@ app.post('/webhook',function(req, res) {
                 // Gets the message. entry.messaging is an array, but 
                 // will only ever contain one message, so we get index 0
                 let webhook_event = entry.messaging[0];
-                if (webhook_event.message || webhook_event.postback){
+                console.log("event:")
+                console.log(webhook_event)
+
+
+                if (webhook_event.message){
                   // Get the sender PSID
                   let sender_psid = webhook_event.sender.id;
-     
-                  
-                console.log("MESSAGE");
-                await FB.handleMessage(sender_psid, webhook_event.message); 
-              }
+       
+                    
+                  console.log("MESSAGE");
+                  await FB.handleMessage(sender_psid, webhook_event.message); 
+                }
+                else if (webhook_event.postback) {
+                  let sender_psid = webhook_event.sender.id;
+
+                  if (webhook_event.postback.referral) {
+                    let referral_code = webhook_event.postback.referral.ref;
+                    console.log("referral: " + referral_code)
+                    let data = await LINK.getData(referral_code + ".json")
+                    console.log("data")
+                    dialog_control.database[sender_psid] = data
+                    console.log(dialog_control.database)
+                    dialog_control.getDialog(sender_psid, "Começar", "FACEBOOK");
+                  }
+                  else {
+                    await FB.handlePostback(sender_psid, webhook_event.postback);
+                  }
+                }
             });
             return res.status(202).send('EVENT_RECEIVED');  
         }

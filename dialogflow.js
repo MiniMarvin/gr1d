@@ -6,6 +6,8 @@ const languageCode = 'pt-BR';
 
 var FB = require("./FB.js")
 
+exports.database = {}
+
 exports.getDialog = async function (sessionId, query, client){
     console.log("Session ID: " + String(sessionId));
     const sessionClient = new dialogflow.SessionsClient();
@@ -34,12 +36,16 @@ exports.getDialog = async function (sessionId, query, client){
         console.log(result.platform)
         if (result.text){
             var text = result.text.text[0];
+            text.replace("$place", exports.database[sessionId].to)
             await FB.sendFBText(sessionId, text);
         }
         
         else if (result.quickReplies){
           if (result.platform === "FACEBOOK"){
-            await FB.sendFBQuickReplies(sessionId, result.quickReplies.title, result.quickReplies.quickReplies)
+            console.log("quickies")
+            var title  = result.quickReplies.title
+            title = title.replace("$place", exports.database[sessionId].to)
+            await FB.sendFBQuickReplies(sessionId, title, result.quickReplies.quickReplies)
           }
         }
         else if (result.card){
