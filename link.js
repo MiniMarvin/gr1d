@@ -114,6 +114,9 @@ app.get('/userinfos/*', (req, res) => {
 	    });
 });
 
+// Não funciona mas deveria funcionar devido ao fato de 
+// que o pessoal que disponibilizou a API não deixou esse
+// serviço disponível por meio da plataforma.
 app.post('/hireInsurance', (req, res) => {
 	// faz um post
 	request({
