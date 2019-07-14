@@ -30,13 +30,15 @@ app.post('/genLink', async (req, res) => {
 	// generate the random id to the user
 	let userid = req.body["userid"];
 	let sessionid = await makeid(10);
-	let id = sessionid + userid;
+	let id = sessionid + "-" + userid;
 
 	// save the context to textfile in json string
-	let context = JSON.stringify(req.body);
-	fs.writeFile("register/" + id + ".json", context);
-
-	res.send(200, baseHost + "checkId/" + id);
+	// let context = JSON.stringify(req.body);
+	// fs.writeFile("register/" + id + ".json", context);
+	// https://www.facebook.com/hackagrid/
+	// let contextLink = baseHost + "checkId/" + id
+	let contextLink = "http://m.me/hackagrid?ref=" + id
+	res.send(200, contextLink);
 });
 
 app.get('/checkId/*', async (req, res) => {
