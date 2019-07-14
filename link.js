@@ -4,6 +4,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 const fs = require('fs');
+let baseHost = "127.0.0.0.1:8080/";
 
 async function makeid(length) {
    let result           = '';
@@ -32,8 +33,10 @@ app.post('/genLink', async (req, res) => {
 	let id = sessionid + userid;
 
 	// save the context to textfile in json string
+	let context = JSON.stringify(req.body);
+	fs.writeFile("register/" + id + ".json", context);
 
-	res.send(200, 'OK');
+	res.send(200, baseHost + "checkId/" + id);
 });
 
 app.get('/checkId/*', async (req, res) => {
@@ -51,10 +54,10 @@ app.get('/checkId/*', async (req, res) => {
 	try {
 	  if (fs.existsSync(path)) {
 		let rawdata = fs.readFileSync(path);
-		let contextData = JSON.parse(rawdata);  
+		let contextData = JSON.parse(rawdata);
 
 
-		// TODO: redirect to the 
+		// TODO: redirect to the correct m.me link
 		res.send("<!DOCTYPE html><html><head><title>redirecting...</title></head>\
 			<body>\
 				<script type=\"text/javascript\">\
