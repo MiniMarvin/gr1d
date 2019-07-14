@@ -136,6 +136,9 @@ app.post('/hireInsurance', (req, res) => {
 	    });
 });
 
+
+app.post('/')
+
 // var server = require('http').createServer();
 app.listen(8080);
 
