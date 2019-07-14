@@ -112,27 +112,32 @@ app.get('/userinfos/*', (req, res) => {
 	    	console.log(body['Result'][0]['BasicData']);
 	    	res.send("OK");
 	    });
-	 
-	// request(options, callback);
+});
 
-
+app.post('/hireInsurance', (req, res) => {
+	// faz um post
+	request({
+	    url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
+	    method: "POST",
+	    headers: {
+	        "content-type": "application/json",
+	        "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
+        },
+	    json: {
+			"Datasets": "basic_data",
+			"q": "doc{" + cpf + "}"
+	    }
+	//  body: JSON.stringify(requestData)
+	    },
+	    function (error, resp, body) {
+	    	console.log(body);
+	    	console.log(body['Result'][0]['BasicData']);
+	    	res.send("OK");
+	    });
 });
 
 // var server = require('http').createServer();
 app.listen(8080);
-
-// write in file
-
-// fs.writeFile("/tmp/test", "Hey there!", function(err) {
-//     if(err) {
-//         return console.log(err);
-//     }
-
-//     console.log("The file was saved!");
-// }); 
-
-
-
 
 
 
