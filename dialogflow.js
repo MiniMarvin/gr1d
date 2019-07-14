@@ -126,16 +126,33 @@ async function getDataFromCPF(cpf, callback){
       "Datasets": "basic_data",
       "q": "doc{" + cpf + "}"
       }
-  //  body: JSON.stringify(requestData)
+    },
+    function (error, resp, body) {
+      console.log(body['Result'][0]['BasicData']);
+      console.log("here")
+      callback(body['Result'][0]['BasicData']);        
+    });
+}
+
+// async function recordDataFromProducts() {
+  // let value = ;
+// }
+
+async function updateDataFromProducts(callback){
+  
+  // realiza um get na API de produtos
+  request({
+      url: "https://gateway.gr1d.io/sandbox/travelace/v1/beneficios?idioma=português&tipoTarifa=1&nacional=true",
+      method: "GET",
+      headers: {
+        "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
       },
-      function (error, resp, body) {
-        //console.log(body);
-        console.log(body['Result'][0]['BasicData']);
-        console.log("here")
-        callback(body['Result'][0]['BasicData']);        
-        // res.send("OK");
-        // return body['Result'][0]['BasicData'];
-      });
-  // return "dssdsd"
-}turn "dssdsd"
+    },
+    function (error, resp, body) {
+      //console.log(body);
+      console.log(body);
+      // console.log("here")
+      // callback(body['Result'][0]['BasicData']);
+      exports.database["products"] = body;
+    });
 }
