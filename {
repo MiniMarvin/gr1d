@@ -1,0 +1,20 @@
+{
+  "destinos": [
+  	"AMN"
+  ],
+  "passageiros": [
+    {
+      "nome": "jose carlos",
+      "dataNascimento": "1999-07-13"
+    }
+  ],
+  "dataSaida": "2019-08-13",
+  "dataRetorno": "2019-08-23",
+  "tipoViagem": 1,
+  "tipoTarifa": 2,
+  "produtoAvulso": true,
+  "cupom": "",
+  "classificacoes": [
+    4
+  ]
+}

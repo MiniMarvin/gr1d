@@ -1,10 +1,10 @@
-// var express = require('express');
-// var app = express();
 var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 const fs = require('fs');
 let baseHost = "127.0.0.0.1:8080/";
+const https = require('https');
+var request = require('request');
 
 async function makeid(length) {
    let result           = '';
@@ -30,13 +30,15 @@ app.post('/genLink', async (req, res) => {
 	// generate the random id to the user
 	let userid = req.body["userid"];
 	let sessionid = await makeid(10);
-	let id = sessionid + userid;
+	let id = sessionid + "-" + userid;
 
 	// save the context to textfile in json string
-	let context = JSON.stringify(req.body);
-	fs.writeFile("register/" + id + ".json", context);
-
-	res.send(200, baseHost + "checkId/" + id);
+	// let context = JSON.stringify(req.body);
+	// fs.writeFile("register/" + id + ".json", context);
+	// https://www.facebook.com/hackagrid/
+	// let contextLink = baseHost + "checkId/" + id
+	let contextLink = "http://m.me/hackagrid?ref=" + id
+	res.send(200, contextLink);
 });
 
 app.get('/checkId/*', async (req, res) => {
@@ -83,29 +85,66 @@ app.get('/checkId/*', async (req, res) => {
 	}
 
 
-	// return a page to redirect to the bot with the context
-})
 
 exports.getData = async function (path) {
 	let rawdata = fs.readFileSync(path);
 	return JSON.parse(rawdata);
 }
 
+
+app.get('/userinfos/*', (req, res) => {
+	let parts = req.originalUrl.split('/');
+	let cpf = parts[2]; // get the end of the request
+	console.log(cpf)
+
+	// faz um post
+	request({
+	    url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
+	    method: "POST",
+	    headers: {
+	        "content-type": "application/json",
+	        "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
+        },
+	    json: {
+			"Datasets": "basic_data",
+			"q": "doc{" + cpf + "}"
+	    }
+	//  body: JSON.stringify(requestData)
+	    },
+	    function (error, resp, body) {
+	    	console.log(body);
+	    	console.log(body['Result'][0]['BasicData']);
+	    	res.send("OK");
+	    });
+});
+
+app.post('/hireInsurance', (req, res) => {
+	// faz um post
+	request({
+	    url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
+	    method: "POST",
+	    headers: {
+	        "content-type": "application/json",
+	        "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
+        },
+	    json: {
+			"Datasets": "basic_data",
+			"q": "doc{" + cpf + "}"
+	    }
+	//  body: JSON.stringify(requestData)
+	    },
+	    function (error, resp, body) {
+	    	console.log(body);
+	    	console.log(body['Result'][0]['BasicData']);
+	    	res.send("OK");
+	    });
+});
+
+
+app.post('/')
+
 // var server = require('http').createServer();
-//app.listen(8080);
-
-// write in file
-
-// fs.writeFile("/tmp/test", "Hey there!", function(err) {
-//     if(err) {
-//         return console.log(err);
-//     }
-
-//     console.log("The file was saved!");
-// }); 
-
-
-
+// app.listen(8080);
 
 
 
