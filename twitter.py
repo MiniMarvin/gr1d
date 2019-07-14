@@ -1,11 +1,14 @@
 from twitter_scraper import get_tweets
 import dialogflow
 # import dialogflow_v2 as dialogflow
+import time
 
 project_id = "elixirexperience"
+project_id2 = "gr1d-viclxt"
 session_id = "POKEBOLASESSION"
+session_id2 = "POKEBOLASESSION"
 
-tweets = get_tweets('minimarvindroid', pages=1)
+# project_id, session, id usuario
 def detect_intent_texts(project_id, session_id, texts, language_code):
     """Returns the result of detect intent with texts as inputs.
 
@@ -33,20 +36,23 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
         print('Fulfillment text: {}\n'.format(
             response.query_result.fulfillment_text))
 
-ct = 0
-for t in tweets:
-	text = t['text']
-	if ct >= 3:
-		break
-	
-	res = detect_intent_texts(project_id, session_id, [text], "pt")
-	# print(text)
-	print()
-	print()
-	if response.query_result.intent.display_name == "wantToTravel":
-		print("call to the database")
-		# register: the last tweet of id 
-	
-	ct += 1
 
-	# TODO: implement the "found" intent
+oldTweets = []
+
+while True:
+	tweets = get_tweets('minimarvindroid', pages=1)
+	ct = 0
+	for t in tweets:
+		text = t['text']
+		if ct >= 3:
+			break
+		
+		res = detect_intent_texts(project_id, session_id, [text], "pt")
+		if response.query_result.intent.display_name == "wantToTravel":
+			# make fake POST on it
+			detect_intent_texts("minimarvin/ABCDEFG")
+
+		ct += 1
+	# Wait for 5 seconds
+	time.sleep(5) 
+	oldTweets = tweets
