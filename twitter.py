@@ -40,10 +40,12 @@ for t in tweets:
 		break
 	
 	res = detect_intent_texts(project_id, session_id, [text], "pt")
-	print(text)
-	print(res)
+	# print(text)
 	print()
-	# if res == ""
+	print()
+	if response.query_result.intent.display_name == "wantToTravel":
+		print("call to the database")
+		# register: the last tweet of id 
 	
 	ct += 1
 
