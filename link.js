@@ -83,7 +83,7 @@ app.get('/checkId/*', async (req, res) => {
 	  console.error(err);
 	  res.send(500, "ERROR");
 	}
-
+});
 
 
 exports.getData = async function (path) {
@@ -114,40 +114,16 @@ app.get('/userinfos/*', (req, res) => {
 	    function (error, resp, body) {
 	    	console.log(body);
 	    	console.log(body['Result'][0]['BasicData']);
+	    	body["produtos"]["beneficios"][1];
+	    	body["produtos"]["beneficios"][2];
+	    	body["produtos"]["beneficios"][7];
 	    	res.send("OK");
 	    });
 });
 
-// Não funciona mas deveria funcionar devido ao fato de 
-// que o pessoal que disponibilizou a API não deixou esse
-// serviço disponível por meio da plataforma.
-app.post('/hireInsurance', (req, res) => {
-	// faz um post
-	request({
-	    url: "https://gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2",
-	    method: "POST",
-	    headers: {
-	        "content-type": "application/json",
-	        "x-api-key": "52d2e55d-0561-4178-b812-079491fa1769"
-        },
-	    json: {
-			"Datasets": "basic_data",
-			"q": "doc{" + cpf + "}"
-	    }
-	//  body: JSON.stringify(requestData)
-	    },
-	    function (error, resp, body) {
-	    	console.log(body);
-	    	console.log(body['Result'][0]['BasicData']);
-	    	res.send("OK");
-	    });
-});
-
-
-app.post('/')
 
 // var server = require('http').createServer();
-// app.listen(8080);
+app.listen(8080);
 
 
 
