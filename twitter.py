@@ -36,9 +36,15 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
 ct = 0
 for t in tweets:
 	text = t['text']
-	if ct < 3:
-		res = detect_intent_texts(project_id, session_id, [text], "pt")
-		print(text)
-		print(res)
-		print()
+	if ct >= 3:
+		break
+	
+	res = detect_intent_texts(project_id, session_id, [text], "pt")
+	print(text)
+	print(res)
+	print()
+	# if res == ""
+	
 	ct += 1
+
+	# TODO: implement the "found" intent
