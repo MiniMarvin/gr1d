@@ -1,0 +1,40 @@
+
+Public
+ Descrição  Chave de Entrada
+Anúncios Online online_ads
+Círculos - Household    circles_household
+Círculos - Colegas de Classe    circles_college_class
+Círculos - Processos Judiciais  circles_lawsuit_parties
+Círculos - Vizinhos circles_neighbors
+Círculos - Vizinhos (mesmo prédio)  circles_building
+Círculos - Parentes circles_relatives
+Círculos - Parentes (1º grau)   circles_first_level_relatives
+Círculos - Socios   circles_partners
+Círculos - Colegas de trabalho  circles_coworkers
+Conselhos de Classe class_organization
+Dados Cadastrais Básicos    basic_data
+Dados Profissionais occupation_data
+Dados Profissionais - Servidores Públicos   profession_data
+Dados de Sites  domains
+E-mails emails
+Emails - Pessoas Relacionadas   related_people_emails
+Endereços   addresses
+Endereços - Pessoas Relacionadas    related_people_addresses
+Exposição e Perfil na Mídia media_profile_and_exposure
+Histórico Escolar e Acadêmico   university_student_data
+Indicadores e Características   flags_and_features
+Informações Financeiras financial_data
+Informações Sócio-Demográficas  demographic_data
+Interesses e Comportamentos interests_and_behaviors
+KYC e Compliance    kyc
+Passagens pela Web  passages
+Presença Online online_presence
+Presença em Cobrança    collections
+Processos Judiciais e Administrativos   processes
+Programas de Benefícios e Assistência Social    social_assistance
+Relacionamentos Econômicos  business_relationships
+Relacionamentos Pessoais    related_people
+Telefones   phones
+Telefones - Pessoas Relacionadas    related_people_phones
+Veículos    vehicles
+BigBoost API

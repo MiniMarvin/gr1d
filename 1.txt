@@ -1,0 +1,2098 @@
+[
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 2,
+        "pais": "BRASIL",
+        "siglaPais": "BR"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 3,
+        "pais": "ANGUILA",
+        "siglaPais": "AI"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 4,
+        "pais": "ANTIGUA E BARBUDA",
+        "siglaPais": "AG"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 5,
+        "pais": "ANTILHAS HOLANDESAS",
+        "siglaPais": "AN"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 6,
+        "pais": "ARUBA",
+        "siglaPais": "AW"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 7,
+        "pais": "BAHAMAS",
+        "siglaPais": "BS"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 8,
+        "pais": "BARBADOS",
+        "siglaPais": "BB"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 9,
+        "pais": "BELIZE",
+        "siglaPais": "BZ"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 10,
+        "pais": "COSTA RICA",
+        "siglaPais": "CR"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 11,
+        "pais": "CUBA",
+        "siglaPais": "CU"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 12,
+        "pais": "DOMINICA",
+        "siglaPais": "DM"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 13,
+        "pais": "EL SALVADOR",
+        "siglaPais": "SV"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 14,
+        "pais": "GRANADA",
+        "siglaPais": "GD"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 15,
+        "pais": "GUADALUPE",
+        "siglaPais": "GP"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 16,
+        "pais": "GUATEMALA",
+        "siglaPais": "GT"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 17,
+        "pais": "HAITI",
+        "siglaPais": "HT"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 18,
+        "pais": "HONDURAS",
+        "siglaPais": "HN"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 19,
+        "pais": "ILHAS MENORES DISTANTES DOS ESTADOS UNIDOS",
+        "siglaPais": "UM"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 20,
+        "pais": "ILHAS VIRGENS (BRITANICAS)",
+        "siglaPais": "VG"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 21,
+        "pais": "ILHAS VIRGENS (ESTADOS UNIDOS)",
+        "siglaPais": "VI"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 22,
+        "pais": "JAMAICA",
+        "siglaPais": "JM"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 23,
+        "pais": "MARTINICA",
+        "siglaPais": "MQ"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 24,
+        "pais": "MONSERRATE",
+        "siglaPais": "MS"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 25,
+        "pais": "NICARAGUA",
+        "siglaPais": "NI"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 26,
+        "pais": "PANAMA",
+        "siglaPais": "PA"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 27,
+        "pais": "PORTO RICO",
+        "siglaPais": "PR"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 28,
+        "pais": "REPUBLICA DOMINICANA",
+        "siglaPais": "DO"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 29,
+        "pais": "SANTA LUCIA",
+        "siglaPais": "LC"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 30,
+        "pais": "SAO CRISTOVAO E NEVIS",
+        "siglaPais": "KN"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 31,
+        "pais": "SAO VICENTE E GRANADINAS",
+        "siglaPais": "VC"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 32,
+        "pais": "TRINDADE E TOBAGO",
+        "siglaPais": "TT"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 33,
+        "pais": "BERMUDA",
+        "siglaPais": "BM"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 34,
+        "pais": "CANADA",
+        "siglaPais": "CA"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 35,
+        "pais": "ESTADOS UNIDOS",
+        "siglaPais": "US"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 36,
+        "pais": "GRONELANDIA",
+        "siglaPais": "GL"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 37,
+        "pais": "ILHAS CAYMAN",
+        "siglaPais": "KY"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 38,
+        "pais": "MEXICO",
+        "siglaPais": "MX"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 39,
+        "pais": "SAO PEDRO E MIQUELON",
+        "siglaPais": "PM"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 40,
+        "pais": "TURCOS E CAICOS (ILHAS)",
+        "siglaPais": "TC"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 41,
+        "pais": "ARGENTINA",
+        "siglaPais": "AR"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 42,
+        "pais": "BOLIVIA",
+        "siglaPais": "BO"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 43,
+        "pais": "CHILE",
+        "siglaPais": "CL"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 44,
+        "pais": "COLOMBIA",
+        "siglaPais": "CO"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 45,
+        "pais": "EQUADOR",
+        "siglaPais": "EC"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 46,
+        "pais": "GUIANA",
+        "siglaPais": "GY"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 47,
+        "pais": "GUIANA FRANCESA",
+        "siglaPais": "GF"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 48,
+        "pais": "ILHAS FALKLAND (MALVINAS)",
+        "siglaPais": "FK"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 49,
+        "pais": "PARAGUAI",
+        "siglaPais": "PY"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 50,
+        "pais": "PERU",
+        "siglaPais": "PE"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 51,
+        "pais": "SURINAME",
+        "siglaPais": "SR"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 52,
+        "pais": "URUGUAI",
+        "siglaPais": "UY"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 53,
+        "pais": "VENEZUELA",
+        "siglaPais": "VE"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 54,
+        "pais": "AFRICA DO SUL",
+        "siglaPais": "ZA"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 55,
+        "pais": "ANGOLA",
+        "siglaPais": "AO"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 56,
+        "pais": "ARGELIA",
+        "siglaPais": "DZ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 57,
+        "pais": "BENIN",
+        "siglaPais": "BJ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 58,
+        "pais": "BOTSWANA",
+        "siglaPais": "BW"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 59,
+        "pais": "BURKINA FASO",
+        "siglaPais": "BF"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 60,
+        "pais": "BURUNDI",
+        "siglaPais": "BI"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 61,
+        "pais": "CABO VERDE",
+        "siglaPais": "CV"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 62,
+        "pais": "CAMAROES",
+        "siglaPais": "CM"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 63,
+        "pais": "CENTRO-AFRICANA (REPUBLICA)",
+        "siglaPais": "CF"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 64,
+        "pais": "CHADE",
+        "siglaPais": "TD"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 65,
+        "pais": "COMORES",
+        "siglaPais": "KM"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 66,
+        "pais": "CONGO",
+        "siglaPais": "CG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 67,
+        "pais": "CONGO (REPUBLICA DEMOCRATICA DO)",
+        "siglaPais": "CD"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 68,
+        "pais": "COSTA DO MARFIM",
+        "siglaPais": "CI"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 69,
+        "pais": "EGIPTO",
+        "siglaPais": "EG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 70,
+        "pais": "ERITREIA",
+        "siglaPais": "ER"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 71,
+        "pais": "ETIOPIA",
+        "siglaPais": "ET"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 72,
+        "pais": "GABAO",
+        "siglaPais": "GA"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 73,
+        "pais": "GAMBIA",
+        "siglaPais": "GM"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 74,
+        "pais": "GANA",
+        "siglaPais": "GH"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 75,
+        "pais": "GUINE",
+        "siglaPais": "GN"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 76,
+        "pais": "GUINE EQUATORIAL",
+        "siglaPais": "GQ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 77,
+        "pais": "GUINE-BISSAU",
+        "siglaPais": "GW"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 78,
+        "pais": "KENYA",
+        "siglaPais": "KE"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 79,
+        "pais": "LESOTO",
+        "siglaPais": "LS"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 80,
+        "pais": "LIBERIA",
+        "siglaPais": "LR"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 81,
+        "pais": "LIBIA (JAMAHIRIYA ARABE DA)",
+        "siglaPais": "LY"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 82,
+        "pais": "MADAGASCAR",
+        "siglaPais": "MG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 83,
+        "pais": "MALAWI",
+        "siglaPais": "MW"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 84,
+        "pais": "MALI",
+        "siglaPais": "ML"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 85,
+        "pais": "MARROCOS",
+        "siglaPais": "MA"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 86,
+        "pais": "MAURITANIA",
+        "siglaPais": "MR"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 87,
+        "pais": "MAYOTTE",
+        "siglaPais": "YT"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 88,
+        "pais": "MOCAMBIQUE",
+        "siglaPais": "MZ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 89,
+        "pais": "NAMIBIA",
+        "siglaPais": "NA"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 90,
+        "pais": "NIGER",
+        "siglaPais": "NE"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 91,
+        "pais": "NIGERIA",
+        "siglaPais": "NG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 92,
+        "pais": "REUNIAO",
+        "siglaPais": "RE"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 93,
+        "pais": "RUANDA",
+        "siglaPais": "RW"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 94,
+        "pais": "SANTA HELENA",
+        "siglaPais": "SH"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 95,
+        "pais": "SAO TOME E PRINCIPE",
+        "siglaPais": "ST"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 96,
+        "pais": "SARA OCIDENTAL",
+        "siglaPais": "EH"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 97,
+        "pais": "SENEGAL",
+        "siglaPais": "SN"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 98,
+        "pais": "SERRA LEOA",
+        "siglaPais": "SL"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 99,
+        "pais": "SEYCHELLES",
+        "siglaPais": "SC"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 100,
+        "pais": "SOMALIA",
+        "siglaPais": "SO"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 101,
+        "pais": "SUAZILANDIA",
+        "siglaPais": "SZ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 102,
+        "pais": "SUDAO",
+        "siglaPais": "SD"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 103,
+        "pais": "TANZANIA, REPUBLICA UNIDA DA",
+        "siglaPais": "TZ"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 104,
+        "pais": "TOGO",
+        "siglaPais": "TG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 105,
+        "pais": "TUNISIA",
+        "siglaPais": "TN"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 106,
+        "pais": "UGANDA",
+        "siglaPais": "UG"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 107,
+        "pais": "ZAMBIA",
+        "siglaPais": "ZM"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 108,
+        "pais": "ZIMBABWE",
+        "siglaPais": "ZW"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 109,
+        "pais": "ALBANIA",
+        "siglaPais": "AL"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 110,
+        "pais": "ALEMANHA",
+        "siglaPais": "DE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 111,
+        "pais": "ANDORRA",
+        "siglaPais": "AD"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 112,
+        "pais": "ANTARCTICA",
+        "siglaPais": "AQ"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 113,
+        "pais": "AUSTRIA",
+        "siglaPais": "AT"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 114,
+        "pais": "BELGICA",
+        "siglaPais": "BE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 115,
+        "pais": "REPUBLICA DE BELARUS",
+        "siglaPais": "BY"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 116,
+        "pais": "BOSNIA E HERZEGOVINA",
+        "siglaPais": "BA"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 117,
+        "pais": "BULGARIA",
+        "siglaPais": "BG"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 118,
+        "pais": "CROACIA",
+        "siglaPais": "HR"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 119,
+        "pais": "DINAMARCA",
+        "siglaPais": "DK"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 120,
+        "pais": "ESLOVACA (REPUBLICA)",
+        "siglaPais": "SK"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 121,
+        "pais": "ESLOVENIA",
+        "siglaPais": "SI"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 122,
+        "pais": "ESPANHA",
+        "siglaPais": "ES"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 123,
+        "pais": "ESTONIA",
+        "siglaPais": "EE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 124,
+        "pais": "FINLANDIA",
+        "siglaPais": "FI"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 125,
+        "pais": "FRANCA",
+        "siglaPais": "FR"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 126,
+        "pais": "GEORGIA DO SUL E ILHAS SANDWICH",
+        "siglaPais": "GS"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 127,
+        "pais": "GERNSEY",
+        "siglaPais": "GG"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 128,
+        "pais": "GIBRALTAR",
+        "siglaPais": "GI"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 129,
+        "pais": "GRECIA",
+        "siglaPais": "GR"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 130,
+        "pais": "HUNGRIA",
+        "siglaPais": "HU"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 131,
+        "pais": "ILHAS ALAND",
+        "siglaPais": "AX"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 132,
+        "pais": "ILHAS BOUVET",
+        "siglaPais": "BV"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 133,
+        "pais": "ILHAS FAROE",
+        "siglaPais": "FO"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 134,
+        "pais": "ILHAS HEARD E ILHAS MCDONALD",
+        "siglaPais": "HM"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 135,
+        "pais": "ILHA DE MAN",
+        "siglaPais": "IM"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 136,
+        "pais": "ILHAS MARIANAS DO NORTE",
+        "siglaPais": "MP"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 137,
+        "pais": "IRLANDA",
+        "siglaPais": "IE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 138,
+        "pais": "ISLANDIA",
+        "siglaPais": "IS"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 139,
+        "pais": "ITALIA",
+        "siglaPais": "IT"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 140,
+        "pais": "JERSEY",
+        "siglaPais": "JE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 141,
+        "pais": "JIBUTI",
+        "siglaPais": "DJ"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 142,
+        "pais": "LETONIA",
+        "siglaPais": "LV"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 143,
+        "pais": "LIECHTENSTEIN",
+        "siglaPais": "LI"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 144,
+        "pais": "LITUANIA",
+        "siglaPais": "LT"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 145,
+        "pais": "LUXEMBURGO",
+        "siglaPais": "LU"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 146,
+        "pais": "MACEDONIA (ANTIGA REPUBLICA JUGOSLAVA DA)",
+        "siglaPais": "MK"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 147,
+        "pais": "MALTA",
+        "siglaPais": "MT"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 148,
+        "pais": "MAURICIA",
+        "siglaPais": "MU"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 149,
+        "pais": "MOLDOVA (REPUBLICA DE)",
+        "siglaPais": "MD"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 150,
+        "pais": "MONACO",
+        "siglaPais": "MC"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 151,
+        "pais": "MONTENEGRO   (REPUBLICA DE)",
+        "siglaPais": "ME"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 152,
+        "pais": "NORUEGA",
+        "siglaPais": "NO"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 153,
+        "pais": "HOLANDA/PAISES BAIXOS",
+        "siglaPais": "NL"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 154,
+        "pais": "POLONIA",
+        "siglaPais": "PL"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 155,
+        "pais": "PORTUGAL",
+        "siglaPais": "PT"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 156,
+        "pais": "REINO UNIDO",
+        "siglaPais": "GB"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 157,
+        "pais": "REPUBLICA CHECA",
+        "siglaPais": "CZ"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 158,
+        "pais": "ROMENIA",
+        "siglaPais": "RO"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 159,
+        "pais": "RUSSIA (FEDERACAO DA)",
+        "siglaPais": "RU"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 160,
+        "pais": "SANTA SE (CIDADE ESTADO DO VATICANO)",
+        "siglaPais": "VA"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 161,
+        "pais": "SAO MARINO",
+        "siglaPais": "SM"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 162,
+        "pais": "SERVIA E MONTENEGRO",
+        "siglaPais": "CS"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 163,
+        "pais": "SERVIA   (REPUBLICA DA)",
+        "siglaPais": "RS"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 164,
+        "pais": "SUECIA",
+        "siglaPais": "SE"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 165,
+        "pais": "SUICA",
+        "siglaPais": "CH"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 166,
+        "pais": "SVALBARD E A ILHA DE JAN MAYEN",
+        "siglaPais": "SJ"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 167,
+        "pais": "TERRITORIO BRITANICO DO OCEANO INDICO",
+        "siglaPais": "IO"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 168,
+        "pais": "TERRITORIO PALESTINIANO OCUPADO",
+        "siglaPais": "PS"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 169,
+        "pais": "TERRITORIOS FRANCESES DO SUL",
+        "siglaPais": "TF"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 170,
+        "pais": "UCRANIA",
+        "siglaPais": "UA"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 171,
+        "pais": "AFEGANISTAO",
+        "siglaPais": "AF"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 172,
+        "pais": "ARABIA SAUDITA",
+        "siglaPais": "SA"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 173,
+        "pais": "ARMENIA",
+        "siglaPais": "AM"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 174,
+        "pais": "AZERBAIJAO",
+        "siglaPais": "AZ"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 175,
+        "pais": "BANGLADESH",
+        "siglaPais": "BD"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 176,
+        "pais": "BAREM",
+        "siglaPais": "BH"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 177,
+        "pais": "BRUNEI DARUSSALAM",
+        "siglaPais": "BN"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 178,
+        "pais": "BUTAO",
+        "siglaPais": "BT"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 179,
+        "pais": "CAMBOJA",
+        "siglaPais": "KH"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 180,
+        "pais": "CATAR",
+        "siglaPais": "QA"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 181,
+        "pais": "CAZAQUISTAO",
+        "siglaPais": "KZ"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 182,
+        "pais": "CHINA",
+        "siglaPais": "CN"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 183,
+        "pais": "CHIPRE",
+        "siglaPais": "CY"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 184,
+        "pais": "COREIA (REPUBLICA DA)",
+        "siglaPais": "KR"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 185,
+        "pais": "COREIA (REPUBLICA POPULAR DEMOCRATICA DA)",
+        "siglaPais": "KP"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 186,
+        "pais": "EMIRADOS ARABES UNIDOS",
+        "siglaPais": "AE"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 187,
+        "pais": "FILIPINAS",
+        "siglaPais": "PH"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 188,
+        "pais": "GEORGIA",
+        "siglaPais": "GE"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 189,
+        "pais": "HONG KONG",
+        "siglaPais": "HK"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 190,
+        "pais": "IEMEN",
+        "siglaPais": "YE"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 191,
+        "pais": "ILHAS CHRISTMAS",
+        "siglaPais": "CX"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 192,
+        "pais": "ILHAS COCOS (KEELING)",
+        "siglaPais": "CC"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 193,
+        "pais": "INDIA",
+        "siglaPais": "IN"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 194,
+        "pais": "INDONESIA",
+        "siglaPais": "ID"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 195,
+        "pais": "IRA (REPUBLICA ISLAMICA)",
+        "siglaPais": "IR"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 196,
+        "pais": "IRAQUE",
+        "siglaPais": "IQ"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 197,
+        "pais": "ISRAEL",
+        "siglaPais": "IL"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 198,
+        "pais": "JAPAO",
+        "siglaPais": "JP"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 199,
+        "pais": "JORDANIA",
+        "siglaPais": "JO"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 200,
+        "pais": "KUWAIT",
+        "siglaPais": "KW"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 201,
+        "pais": "LAOS (REPUBLICA POPULAR DEMOCRATICA DO)",
+        "siglaPais": "LA"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 202,
+        "pais": "LIBANO",
+        "siglaPais": "LB"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 203,
+        "pais": "MACAU",
+        "siglaPais": "MO"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 204,
+        "pais": "MALASIA",
+        "siglaPais": "MY"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 205,
+        "pais": "MALDIVAS",
+        "siglaPais": "MV"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 206,
+        "pais": "MONGOLIA",
+        "siglaPais": "MN"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 207,
+        "pais": "MYANMAR",
+        "siglaPais": "MM"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 208,
+        "pais": "NEPAL",
+        "siglaPais": "NP"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 209,
+        "pais": "OMA",
+        "siglaPais": "OM"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 210,
+        "pais": "PAQUISTAO",
+        "siglaPais": "PK"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 211,
+        "pais": "QUIRGUIZISTAO",
+        "siglaPais": "KG"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 212,
+        "pais": "SINGAPURA",
+        "siglaPais": "SG"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 213,
+        "pais": "SIRIA (REPUBLICA ARABE DA)",
+        "siglaPais": "SY"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 214,
+        "pais": "SRI LANKA",
+        "siglaPais": "LK"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 215,
+        "pais": "TAILANDIA",
+        "siglaPais": "TH"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 216,
+        "pais": "TAIWAN (PROVINCIA DA CHINA)",
+        "siglaPais": "TW"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 217,
+        "pais": "TAJIQUISTAO",
+        "siglaPais": "TJ"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 218,
+        "pais": "TIMOR LESTE",
+        "siglaPais": "TL"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 219,
+        "pais": "TURQUEMENISTAO",
+        "siglaPais": "TM"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 220,
+        "pais": "TURQUIA",
+        "siglaPais": "TR"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 221,
+        "pais": "USBEQUISTAO",
+        "siglaPais": "UZ"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 222,
+        "pais": "VIETNAME",
+        "siglaPais": "VN"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 223,
+        "pais": "AUSTRALIA",
+        "siglaPais": "AU"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 224,
+        "pais": "GUAM",
+        "siglaPais": "GU"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 225,
+        "pais": "ILHAS COOK",
+        "siglaPais": "CK"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 226,
+        "pais": "ILHAS FIJI",
+        "siglaPais": "FJ"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 227,
+        "pais": "ILHAS MARSHALL",
+        "siglaPais": "MH"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 228,
+        "pais": "ILHAS NORFOLK",
+        "siglaPais": "NF"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 229,
+        "pais": "ILHAS SALOMAO",
+        "siglaPais": "SB"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 230,
+        "pais": "KIRIBATI",
+        "siglaPais": "KI"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 231,
+        "pais": "MICRONESIA (ESTADOS FEDERADOS DA)",
+        "siglaPais": "FM"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 232,
+        "pais": "NAURU",
+        "siglaPais": "NR"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 233,
+        "pais": "NIUE",
+        "siglaPais": "NU"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 234,
+        "pais": "NOVA CALEDONIA",
+        "siglaPais": "NC"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 235,
+        "pais": "NOVA ZELANDIA",
+        "siglaPais": "NZ"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 236,
+        "pais": "PALAU",
+        "siglaPais": "PW"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 237,
+        "pais": "PAPUASIA-NOVA GUINE",
+        "siglaPais": "PG"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 238,
+        "pais": "PITCAIRN",
+        "siglaPais": "PN"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 239,
+        "pais": "POLINESIA FRANCESA",
+        "siglaPais": "PF"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 240,
+        "pais": "SAMOA",
+        "siglaPais": "WS"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 241,
+        "pais": "SAMOA AMERICANA",
+        "siglaPais": "AS"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 242,
+        "pais": "TOKELAU",
+        "siglaPais": "TK"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 243,
+        "pais": "TONGA",
+        "siglaPais": "TO"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 244,
+        "pais": "TUVALU",
+        "siglaPais": "TV"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 245,
+        "pais": "VANUATU",
+        "siglaPais": "VU"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 246,
+        "pais": "WALLIS E FUTUNA (ILHAS)",
+        "siglaPais": "WF"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 247,
+        "pais": "AFRICA",
+        "siglaPais": "X5"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 248,
+        "pais": "AMERICA CENTRAL",
+        "siglaPais": "X2"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 249,
+        "pais": "AMERICA DO NORTE",
+        "siglaPais": "X4"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 250,
+        "pais": "AMERICA DO SUL(MAIS BRASIL)",
+        "siglaPais": "X3"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 251,
+        "pais": "ASIA",
+        "siglaPais": "X7"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 252,
+        "pais": "EUROPA",
+        "siglaPais": "X6"
+    },
+    {
+        "idRegiao": 8,
+        "regiao": "OCEANIA",
+        "siglaRegiao": "OCEANIA",
+        "idPais": 253,
+        "pais": "OCEANIA",
+        "siglaPais": "X8"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 254,
+        "pais": "AMERICA DO SUL",
+        "siglaPais": "X9"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 255,
+        "pais": "CARIBE (ILHAS)",
+        "siglaPais": "X1"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 258,
+        "pais": "INGLATERRA",
+        "siglaPais": "Y0"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 260,
+        "pais": "ESCOCIA",
+        "siglaPais": "Y1"
+    },
+    {
+        "idRegiao": 6,
+        "regiao": "EUROPA",
+        "siglaRegiao": "EUROPA",
+        "idPais": 261,
+        "pais": "PAIS DE GALES",
+        "siglaPais": "Y2"
+    },
+    {
+        "idRegiao": 2,
+        "regiao": "AMERICA CENTRAL",
+        "siglaRegiao": "AMC",
+        "idPais": 262,
+        "pais": "CURACAO",
+        "siglaPais": "Y3"
+    },
+    {
+        "idRegiao": 3,
+        "regiao": "AMERICA DO SUL",
+        "siglaRegiao": "AMS",
+        "idPais": 263,
+        "pais": "BRASIL RECEPTIVO",
+        "siglaPais": "Y4"
+    },
+    {
+        "idRegiao": 4,
+        "regiao": "AMERICA DO NORTE",
+        "siglaRegiao": "AMN",
+        "idPais": 264,
+        "pais": "ESTADOS UNIDOS COM ORLANDO",
+        "siglaPais": "Y5"
+    },
+    {
+        "idRegiao": 7,
+        "regiao": "ASIA",
+        "siglaRegiao": "ASIA",
+        "idPais": 265,
+        "pais": "BAHRAIN",
+        "siglaPais": "Z1"
+    },
+    {
+        "idRegiao": 5,
+        "regiao": "AFRICA",
+        "siglaRegiao": "AFRICA",
+        "idPais": 267,
+        "pais": "QUENIA",
+        "siglaPais": "Z2"
+    }
+]

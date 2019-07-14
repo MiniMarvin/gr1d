@@ -1,0 +1,4 @@
+gateway.gr1d.io/sandbox/bigdata/bigboost/v1/peoplev2
+
+
+gateway.gr1d.io/sandbox/unionsolution/localizaveiculos/v1/localizaVeiculo

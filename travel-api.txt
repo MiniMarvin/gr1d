@@ -1,0 +1,108 @@
+travel ace: 
+	- https://gateway.gr1d.io/sandbox/travelace/v1
+	- b7483bb4-f7f9-4521-a047-223fc550a1cb
+
+
+
+https://gateway.gr1d.io/sandbox/travelace/v1/classificacoes
+https://gateway.gr1d.io/sandbox/travelace/v1/Cambio
+https://gateway.gr1d.io/sandbox/travelace/v1/formasdepagamento
+
+
+
+
+
+https://gateway.gr1d.io/sandbox/travelace/v1/destinos
+https://gateway.gr1d.io/sandbox/travelace/v1/tipoviagem
+	[
+	    {
+	        "codigoTipoViagem": 3,
+	        "tipo": "Banco de Dias"
+	    },
+	    {
+	        "codigoTipoViagem": 2,
+	        "tipo": "Multiviagens"
+	    },
+	    {
+	        "codigoTipoViagem": 1,
+	        "tipo": "Viagem Única"
+	    }
+	]
+
+https://gateway.gr1d.io/sandbox/travelace/v1/tiposdocumento
+	[
+	    {
+	        "codigoDocumento": 1,
+	        "documento": "CPF"
+	    },
+	    {
+	        "codigoDocumento": 5,
+	        "documento": "ID PET"
+	    },
+	    {
+	        "codigoDocumento": 3,
+	        "documento": "PASSPORT"
+	    },
+	    {
+	        "codigoDocumento": 2,
+	        "documento": "RG"
+	    },
+	    {
+	        "codigoDocumento": 4,
+	        "documento": "RNE"
+	    }
+	]
+
+https://gateway.gr1d.io/sandbox/travelace/v1/tipostarifa
+	[
+	    {
+	        "codigoTarifa": 1,
+	        "tarifa": "Diario"
+	    },
+	    {
+	        "codigoTarifa": 2,
+	        "tarifa": "Periodo"
+	    },
+	    {
+	        "codigoTarifa": 3,
+	        "tarifa": "Porcentagem da tarifa básica"
+	    }
+	]
+
+https://gateway.gr1d.io/sandbox/travelace/v1/beneficios
+	idioma: português
+	tipoTarifa: 2
+	nacional: true
+
+https://gateway.gr1d.io/sandbox/travelace/v1/Cotacao
+https://gateway.gr1d.io/sandbox/travelace/v1/classificacoes
+	[
+	    {
+	        "codigo": 5,
+	        "descricao": "Estudante"
+	    },
+	    {
+	        "codigo": 7,
+	        "descricao": "Gestantes"
+	    },
+	    {
+	        "codigo": 4,
+	        "descricao": "Lazer"
+	    },
+	    {
+	        "codigo": 8,
+	        "descricao": "Marítimo"
+	    },
+	    {
+	        "codigo": 6,
+	        "descricao": "Negocios"
+	    }
+	]
+
+
+
+
+
+
+
+
