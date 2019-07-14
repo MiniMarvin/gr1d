@@ -4,8 +4,6 @@ const dialog_control = require("./dialogflow.js")
 exports.PAGE_ACCESS_TOKEN = "EAAGjYJD8Ha8BAJj1odfUpuj8oXZANBvZC0OZBI4QCSA4lcjdNu5Dyzgb2ibz3vn6ZC899mZBzXdaZCcDGwhrvZAJ4aWVDiVhZC4ubXauVrmzenbOiPtDCY0uYQuYnz6UDWfLOZA9ZAd2ZAfXedAftZCZA5zO5mQFINgQutH7qoToTtaLm9gZDZD";
 exports.VERIFY_TOKEN = "gr1d";
 
-
-
 // Handles messages events
 exports.handleMessage = async function (sender_psid, received_message, current_date) {
     // Check if the message contains text
