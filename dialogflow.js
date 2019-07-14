@@ -16,6 +16,8 @@ var FB = require("./FB.js")
 
 exports.database = {}
 
+let insurancePlans = ["Despesas Odontoógicas", "Despesas Farmaceuticas", "Regresso Antecipado"]
+
 exports.getDialog = async function (sessionId, query, client){
     console.log("Session ID: " + String(sessionId));
     const sessionClient = new dialogflow.SessionsClient();
