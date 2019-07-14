@@ -114,10 +114,12 @@ app.get('/userinfos/*', (req, res) => {
 	    function (error, resp, body) {
 	    	console.log(body);
 	    	console.log(body['Result'][0]['BasicData']);
+	    	body["produtos"]["beneficios"][1];
+	    	body["produtos"]["beneficios"][2];
+	    	body["produtos"]["beneficios"][7];
 	    	res.send("OK");
 	    });
 });
-
 
 
 
