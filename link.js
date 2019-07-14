@@ -90,7 +90,8 @@ app.get('/checkId/*', async (req, res) => {
 
 app.get('/userinfos/*', (req, res) => {
 	let parts = req.originalUrl.split('/');
-	let cpf = parts[1];
+	let cpf = parts[2]; // get the end of the request
+	console.log(cpf)
 
 	// faz um post
 	request({
