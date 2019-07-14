@@ -16,6 +16,8 @@ var FB = require("./FB.js")
 
 exports.database = {}
 
+let insurancePlans = ["Despesas Odontoógicas", "Despesas Farmaceuticas", "Regresso Antecipado"]
+
 exports.getDialog = async function (sessionId, query, client){
     console.log("Session ID: " + String(sessionId));
     const sessionClient = new dialogflow.SessionsClient();
@@ -60,7 +62,7 @@ exports.getDialog = async function (sessionId, query, client){
             if (exports.database[sessionId]) {
               title = title.replace("$place", exports.database[sessionId].to)
             }
-            await FB.sendFBQuickReplies(sessionId, title, result.quickReplies.quickReplies)
+            await FB.sendFBQuickReplies(sessionId, "Estes são os planos disponíveis:", insurancePlans)
           }
         }
         else if (result.card){
@@ -106,6 +108,8 @@ exports.processAction = async function (sessionId, action, parameters, client, m
     getDataFromCPF("11055828419", (data) => {
       console.log(data);
       exports.database[sessionId]["cpf"] = data;
+
+      let cardArray = []
     });
   }
 }
