@@ -2,10 +2,11 @@ from twitter_scraper import get_tweets
 import dialogflow
 # import dialogflow_v2 as dialogflow
 import time
-# Wait for 5 seconds
-time.sleep(5) 
+
 project_id = "elixirexperience"
+project_id2 = "gr1d-viclxt"
 session_id = "POKEBOLASESSION"
+session_id2 = "POKEBOLASESSION"
 
 # project_id, session, id usuario
 def detect_intent_texts(project_id, session_id, texts, language_code):
@@ -36,6 +37,8 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
             response.query_result.fulfillment_text))
 
 
+oldTweets = []
+
 while True:
 	tweets = get_tweets('minimarvindroid', pages=1)
 	ct = 0
@@ -46,6 +49,10 @@ while True:
 		
 		res = detect_intent_texts(project_id, session_id, [text], "pt")
 		if response.query_result.intent.display_name == "wantToTravel":
-			
+			# make fake POST on it
+			detect_intent_texts("minimarvin/ABCDEFG")
 
 		ct += 1
+	# Wait for 5 seconds
+	time.sleep(5) 
+	oldTweets = tweets
