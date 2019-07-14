@@ -86,8 +86,13 @@ app.get('/checkId/*', async (req, res) => {
 	// return a page to redirect to the bot with the context
 })
 
+exports.getData = async function (path) {
+	let rawdata = fs.readFileSync(path);
+	return JSON.parse(rawdata);
+}
+
 // var server = require('http').createServer();
-app.listen(8080);
+//app.listen(8080);
 
 // write in file
 
